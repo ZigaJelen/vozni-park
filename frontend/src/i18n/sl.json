@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "Vozni park"
+  },
+  "common": {
+    "loading": "Nalaganje ...",
+    "retry": "Poskusi znova",
+    "cancel": "Prekliči",
+    "close": "Zapri"
+  },
+  "errors": {
+    "network": "Strežnik ni dosegljiv. Poskusite znova.",
+    "generic": "Prišlo je do napake. Poskusite znova.",
+    "sessionExpired": "Seja je potekla. Prijavite se znova.",
+    "forbidden": "Za to dejanje nimate pravic.",
+    "notFound": "Avtomobil ne obstaja (več)."
+  },
+  "nav": {
+    "cars": "Avtomobili",
+    "login": "Prijava",
+    "logout": "Odjava",
+    "admin": "administrator",
+    "language": "Jezik"
+  },
+  "cars": {
+    "title": "Avtomobili",
+    "actions": {
+      "add": "Dodaj avtomobil",
+      "edit": "Uredi",
+      "delete": "Izbriši"
+    },
+    "filters": {
+      "brand": "Znamka",
+      "allBrands": "Vse znamke",
+      "priceMin": "Cena od (€)",
+      "priceMax": "Cena do (€)",
+      "apply": "Filtriraj",
+      "reset": "Počisti"
+    },
+    "columns": {
+      "brand": "Znamka",
+      "model": "Model",
+      "year": "Letnik",
+      "price": "Cena",
+      "fuel": "Gorivo",
+      "doors": "Vrata",
+      "description": "Opis"
+    },
+    "empty": "Ni avtomobilov, ki bi ustrezali filtrom.",
+    "showing": "Prikazano {{from}}–{{to}} od {{total}}",
+    "delete": {
+      "title": "Brisanje avtomobila",
+      "confirm": "Ali res želite izbrisati {{brand}} {{model}} ({{year}})? Tega ni mogoče razveljaviti.",
+      "submit": "Izbriši"
+    }
+  },
+  "fuel": {
+    "petrol": "Bencin",
+    "diesel": "Dizel",
+    "electric": "Elektrika",
+    "hybrid": "Hibrid",
+    "lpg": "Plin (LPG)"
+  },
+  "pagination": {
+    "previous": "Prejšnja stran",
+    "next": "Naslednja stran",
+    "current": "(trenutna)"
+  },
+  "login": {
+    "title": "Prijava",
+    "username": "Uporabniško ime",
+    "password": "Geslo",
+    "submit": "Prijava",
+    "submitting": "Prijavljam ...",
+    "invalid": "Napačno uporabniško ime ali geslo."
+  },
+  "carForm": {
+    "createTitle": "Nov avtomobil",
+    "editTitle": "Uredi avtomobil",
+    "price": "Cena (€)",
+    "choose": "Izberite ...",
+    "save": "Shrani",
+    "saving": "Shranjujem ..."
+  },
+  "notFound": {
+    "title": "Strani ni mogoče najti",
+    "back": "Nazaj na seznam avtomobilov"
+  }
+}

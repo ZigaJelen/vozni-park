@@ -1,0 +1,31 @@
+name: vozni-park-test
+
+services:
+  db:
+    image: mariadb:12.3
+    environment:
+      MARIADB_DATABASE: avtomobili_test
+      MARIADB_USER: test_user
+      MARIADB_PASSWORD: test-password
+      MARIADB_RANDOM_ROOT_PASSWORD: "yes"
+    tmpfs:
+      - /var/lib/mysql  # podatki samo v pomnilniku
+    healthcheck:
+      test: [ "CMD", "healthcheck.sh", "--connect", "--innodb_initialized" ]
+      interval: 3s
+      timeout: 5s
+      retries: 20
+
+  tests:
+    build:
+      context: ./backend
+      target: test
+    environment:
+      DB_HOST: db
+      DB_DATABASE: avtomobili_test
+      DB_USERNAME: test_user
+      DB_PASSWORD: test-password
+      JWT_SECRET_KEY: test-secret-key-test-secret-key-0123
+    depends_on:
+      db:
+        condition: service_healthy

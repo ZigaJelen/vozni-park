@@ -1,0 +1,9 @@
+# Okolje in IDE
+.venv
+.idea
+
+# Python predpomnilnik
+**/__pycache__
+**/*.pyc
+.pytest_cache
+

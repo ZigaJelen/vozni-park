@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "Car fleet"
+  },
+  "common": {
+    "loading": "Loading ...",
+    "retry": "Try again",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "errors": {
+    "network": "The server is unreachable. Please try again.",
+    "generic": "Something went wrong. Please try again.",
+    "sessionExpired": "Your session has expired. Please log in again.",
+    "forbidden": "You do not have permission to do this.",
+    "notFound": "The car does not exist (anymore)."
+  },
+  "nav": {
+    "cars": "Cars",
+    "login": "Log in",
+    "logout": "Log out",
+    "admin": "admin",
+    "language": "Language"
+  },
+  "cars": {
+    "title": "Cars",
+    "actions": {
+      "add": "Add car",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "filters": {
+      "brand": "Brand",
+      "allBrands": "All brands",
+      "priceMin": "Price from (€)",
+      "priceMax": "Price to (€)",
+      "apply": "Filter",
+      "reset": "Clear"
+    },
+    "columns": {
+      "brand": "Brand",
+      "model": "Model",
+      "year": "Year",
+      "price": "Price",
+      "fuel": "Fuel",
+      "doors": "Doors",
+      "description": "Description"
+    },
+    "empty": "No cars match the filters.",
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "delete": {
+      "title": "Delete car",
+      "confirm": "Do you really want to delete {{brand}} {{model}} ({{year}})? This cannot be undone.",
+      "submit": "Delete"
+    }
+  },
+  "fuel": {
+    "petrol": "Petrol",
+    "diesel": "Diesel",
+    "electric": "Electric",
+    "hybrid": "Hybrid",
+    "lpg": "LPG"
+  },
+  "pagination": {
+    "previous": "Previous page",
+    "next": "Next page",
+    "current": "(current)"
+  },
+  "login": {
+    "title": "Log in",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Log in",
+    "submitting": "Logging in ...",
+    "invalid": "Wrong username or password."
+  },
+  "carForm": {
+    "createTitle": "New car",
+    "editTitle": "Edit car",
+    "price": "Price (€)",
+    "choose": "Select ...",
+    "save": "Save",
+    "saving": "Saving ..."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to the car list"
+  }
+}

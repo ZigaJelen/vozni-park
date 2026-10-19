@@ -1,0 +1,2 @@
+# Vse besedilne datoteke imajo konce vrstic LF (skripte in konfiguracija tečejo v Linux kontejnerjih).
+* text=auto eol=lf
